@@ -21,6 +21,7 @@ int main(){
     for(int i=0;i<n;i++)
         cin>>arr[i];
     printEven(arr,n);
+    cout << endl;
     printOdd(arr,n);
     return 0;
 }
